@@ -1,5 +1,5 @@
-age = 33
-sex = 1
-bmi = 22.5
-num_of_children = 1
+age = 28
+sex = 0
+bmi = 26.2
+num_of_children = 3
 smoker = 0
