@@ -27,3 +27,4 @@ print("The change in estimate insurance cost after increasing BMI by 3.1 is " + 
 
 # Male vs. Female Factor
 bmi = 26.2
+sex = 1
