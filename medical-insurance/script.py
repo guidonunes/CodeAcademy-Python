@@ -15,3 +15,4 @@ change_in_insurance_cost = new_insurance_cost - insurance_cost
 print("The change in cost of insurance after increasing the age by 4 years is " + str(change_in_insurance_cost) + " dollars.")
 
 age = 28
+bmi += 3.1
