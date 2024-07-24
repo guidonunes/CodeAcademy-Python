@@ -24,3 +24,6 @@ new_insurance_cost = 250 * age - 128 * sex + 370 * bmi + 425 * num_of_children +
 change_in_insurance_cost = new_insurance_cost - insurance_cost
 
 print("The change in estimate insurance cost after increasing BMI by 3.1 is " + str(change_in_insurance_cost) + " dollars.")
+
+# Male vs. Female Factor
+bmi = 26.2
