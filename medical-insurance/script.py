@@ -3,15 +3,9 @@ def calculate_insurance_cost(age, sex, bmi, num_of_children, smoker):
     print("The estimated insurance cost for this person is " + str(estimated_cost) + " dollars.")
     return estimated_cost
 
-# Initial variables for Maria
-age = 28
-sex = 0
-bmi = 26.2
-num_of_children = 3
-smoker = 0
 
 # Estimate Maria's insurance cost
-maria_insurance_cost = calculate_insurance_cost()
+maria_insurance_cost = calculate_insurance_cost(28, 0, 26.2, 3, 0)
 
 print("The estimated insurance cost for Maria is " + str(insurance_cost) + " dollars.")
 
