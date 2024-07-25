@@ -1,4 +1,5 @@
 def calculate_insurance_cost():
+    estimated_cost = 1000
     print("The estimated insurance cost for this person is " + str(estimated_cost) + " dollars.")
     return estimated_cost
 
