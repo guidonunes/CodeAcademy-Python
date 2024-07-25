@@ -7,7 +7,7 @@ def calculate_insurance_cost(age, sex, bmi, num_of_children, smoker):
 # Estimate Maria's insurance cost
 maria_insurance_cost = calculate_insurance_cost(28, 0, 26.2, 3, 0)
 
-print("The estimated insurance cost for Maria is " + str(insurance_cost) + " dollars.")
+print("The estimated insurance cost for Maria is " + str(calculate_insurance_cost) + " dollars.")
 
 # Initial variables for Omar
 age = 35
