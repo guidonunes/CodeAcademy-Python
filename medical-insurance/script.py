@@ -1,3 +1,5 @@
+def calculate_insurance_cost():
+
 
 # Initial variables for Maria
 age = 28
