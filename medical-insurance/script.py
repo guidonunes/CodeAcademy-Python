@@ -12,7 +12,7 @@ maria_insurance_cost_message, maria_insurance_cost = calculate_insurance_cost("M
 omar_insurance_cost_message, omar_insurance_cost = calculate_insurance_cost("Omar", 35, 1, 22.2, 0, 1)
 
 # Estimate my insurance cost
-my_insurance_cost_message, my_insurance_cost = calculate_insurance_cost("Gui", 33, 1, 18.2, 0, 0 )
+my_insurance_cost_message, my_insurance_cost = calculate_insurance_cost("Cal", 33, 1, 18.2, 0, 0 )
 
 # print(maria_insurance_cost_message)
 # print(omar_insurance_cost_message)
