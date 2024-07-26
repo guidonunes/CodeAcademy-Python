@@ -5,12 +5,8 @@ def calculate_insurance_cost(name, age, sex, bmi, num_of_children, smoker):
 
 
 # Estimate Maria's insurance cost
-maria_insurance_cost = calculate_insurance_cost(28, 0, 26.2, 3, 0)
-
-print("The estimated insurance cost for Maria is " + str(maria_insurance_cost) + " dollars.")
+maria_insurance_cost = calculate_insurance_cost("Maria", 28, 0, 26.2, 3, 0)
 
 
 # Estimate Omar's insurance cost
-omar_insurance_cost = calculate_insurance_cost(35, 1, 22.2, 0, 1)
-
-print("The estimated insurance cost for Omar is " + str(omar_insurance_cost) + " dollars.")
+omar_insurance_cost = calculate_insurance_cost("Omar", 35, 1, 22.2, 0, 1)
