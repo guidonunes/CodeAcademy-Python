@@ -1,5 +1,8 @@
 def analyze_smoker(smoker_status):
-    print(smoker_status)
+    if smoker_status == 1:
+        print("To lower your cost, you should consider quitting smoking.")
+    else:
+        print("Smoking is not an issue for you.")
 
 
 def calculate_insurance_cost(name, age, sex, bmi, num_of_children, smoker):
