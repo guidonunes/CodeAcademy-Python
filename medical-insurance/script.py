@@ -1,7 +1,7 @@
 def calculate_insurance_cost(name, age, sex, bmi, num_of_children, smoker):
     estimated_cost = 250*age - 128*sex + 370*bmi + 425*num_of_children + 24000*smoker - 12500
-    output_message = print("The estimated insurance cost for " + name + " is " + str(estimated_cost) + " dollars.")
-    return estimated_cost, output_message
+    print("The estimated insurance cost for " + name + " is " + str(estimated_cost) + " dollars.")
+    return estimated_cost
 
 
 # Estimate Maria's insurance cost
