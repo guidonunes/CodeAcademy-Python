@@ -13,15 +13,4 @@ def calculate_insurance_cost(name, age, sex, bmi, num_of_children, smoker):
 
 
 # Estimate Maria's insurance cost
-maria_insurance_cost_message, maria_insurance_cost = calculate_insurance_cost("Maria", 28, 0, 26.2, 3, 0)
-
-
-# Estimate Omar's insurance cost
-omar_insurance_cost_message, omar_insurance_cost = calculate_insurance_cost("Omar", 35, 1, 22.2, 0, 1)
-
-# Estimate my insurance cost
-my_insurance_cost_message, my_insurance_cost = calculate_insurance_cost("Cal", 33, 1, 18.2, 0, 0 )
-
-# print(maria_insurance_cost_message)
-# print(omar_insurance_cost_message)
-# print(my_insurance_cost_message)
+keanu_insurance_cost = calculate_insurance_cost(name = 'Keanu', age = 29, sex = 1, num_of_children = 3, smoker = 1)
