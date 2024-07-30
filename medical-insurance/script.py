@@ -26,3 +26,4 @@ estimated_insurance_data.append(("Rohan", rohan_insurance_cost))
 estimated_insurance_data.append(("Valentina", valentina_insurance_cost))
 
 print(estimated_insurance_data)
+print("Here is the actual insurance cost data: ", insurance_data)
