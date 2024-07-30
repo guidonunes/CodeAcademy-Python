@@ -24,6 +24,7 @@ estimated_insurance_data = []
 estimated_insurance_data.append(("Maria", maria_insurance_cost))
 estimated_insurance_data.append(("Rohan", rohan_insurance_cost))
 estimated_insurance_data.append(("Valentina", valentina_insurance_cost))
-
+print('-'*50)
 print(estimated_insurance_data)
+print('-'*50)
 print("Here is the actual insurance cost data: ", insurance_data)
