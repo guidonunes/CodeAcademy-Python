@@ -22,3 +22,9 @@ print("-" * 50)
 
 medical_records.sort()
 print("Here are the medical records sorted by insurance cost: " + str(medical_records))
+print("-" * 50)
+
+
+cheapest_three = medical_records[:3]
+print("Here are the three cheapest insurance costs in our medical records: " + str(cheapest_three))
+print("-" * 50)
