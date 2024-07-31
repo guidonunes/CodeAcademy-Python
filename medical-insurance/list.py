@@ -9,3 +9,4 @@ print(insurance_costs)
 
 
 medical_records = list(zip(insurance_costs, names))
+print(medical_records)
