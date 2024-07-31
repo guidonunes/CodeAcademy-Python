@@ -6,13 +6,16 @@ names.append("Priscilla")
 print(names)
 insurance_costs.append(8320.0)
 print(insurance_costs)
-
+print("-" * 50)
 
 medical_records = list(zip(insurance_costs, names))
 print(medical_records)
+print("-" * 50)
 
 num_medical_records = len(medical_records)
 print(f"There are {num_medical_records} medical records")
+print("-" * 50)
 
 first_medical_record = medical_records[0]
 print(first_medical_record)
+print("-" * 50)
