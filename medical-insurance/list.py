@@ -10,3 +10,6 @@ print(insurance_costs)
 
 medical_records = list(zip(insurance_costs, names))
 print(medical_records)
+
+num_medical_records = len(medical_records)
+print(f"There are {num_medical_records} medical records")
