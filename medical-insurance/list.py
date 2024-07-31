@@ -33,3 +33,7 @@ print("-" * 50)
 priciest_three = medical_records[-3:]
 print("Here are the three most expensive insurance costs in our medical records: "+ str(priciest_three))
 print("-" * 50)
+
+ocurrences_paul = names.count("Paul")
+print(f"There are {ocurrences_paul} individuals with the name Paul in our medical records.")
+print("-" * 50)
