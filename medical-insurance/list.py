@@ -8,5 +8,4 @@ insurance_costs.append(8320.0)
 print(insurance_costs)
 
 
-medical_records = zip(insurance_costs, names)
-print(list(medical_records))
+medical_records = list(zip(insurance_costs, names))
