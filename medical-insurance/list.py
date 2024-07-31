@@ -19,3 +19,6 @@ print("-" * 50)
 first_medical_record = medical_records[0]
 print(first_medical_record)
 print("-" * 50)
+
+medical_records.sort()
+print("Here are the medical records sorted by insurance cost: " + str(medical_records))
