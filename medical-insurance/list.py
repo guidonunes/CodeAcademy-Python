@@ -13,3 +13,6 @@ print(medical_records)
 
 num_medical_records = len(medical_records)
 print(f"There are {num_medical_records} medical records")
+
+first_medical_record = medical_records[0]
+print(first_medical_record)
