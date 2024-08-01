@@ -10,4 +10,4 @@ for cost in actual_insurance_costs:
 print(total_cost)
 
 average_cost = total_cost/len(actual_insurance_costs)
-print(average_cost)
+print("Average Insurance Cost: $" + str(average_cost) + " dollars.")
