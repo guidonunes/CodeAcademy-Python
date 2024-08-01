@@ -8,3 +8,6 @@ for cost in actual_insurance_costs:
   total_cost += cost
 
 print(total_cost)
+
+average_cost = total_cost/len(actual_insurance_costs)
+print(average_cost)
