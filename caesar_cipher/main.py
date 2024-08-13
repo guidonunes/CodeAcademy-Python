@@ -16,7 +16,7 @@ def encode_message(message, offset):
     encoded = ""
     for char in message:
         if char in ALPHABET:
-            index = (ALPHABET.index(char) - offset+1) % len(ALPHABET)
+            index = (ALPHABET.index(char) - offset) % len(ALPHABET)
             print(index)  # Correct: Add offset for encoding
             encoded += ALPHABET[index]
         else:
