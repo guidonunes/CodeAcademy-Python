@@ -1,4 +1,5 @@
 encoded = "xuo jxuhu! jxyi yi qd unqcfbu ev q squiqh syfxuh. muhu oek qrbu je tusetu yj? y xefu ie! iudt cu q cuiiqwu rqsa myjx jxu iqcu evviuj!"
+my_message = "hey there! i am having a lot of fun learning python, you should also give it a try."
 ALPHABET = "abcdefghijklmnopqrstuvwxyz"
 
 def decode_message(message, offset):
@@ -17,11 +18,25 @@ def encode_message(message, offset):
     for char in message:
         if char in ALPHABET:
             index = (ALPHABET.index(char) - offset) % len(ALPHABET)
-            print(index)  # Correct: Add offset for encoding
             encoded += ALPHABET[index]
         else:
-            encoded += char  # Leave non-alphabet characters unchanged
+            encoded += char
     return encoded
 
-decoded_message = decode_message(encoded, 10)
-print(decoded_message)
+# Decode my custom message
+def decode_message_custom(message):
+    encoded = ""
+    for char in message:
+        if char in ALPHABET:
+            index = (ALPHABET.index(char)) % len(ALPHABET)
+            encoded += ALPHABET[index]
+        else:
+            encoded += char
+    return encoded
+
+
+
+encoded_message = encode_message(my_message, 10)
+my_message_decoded = decode_message_custom(my_message)
+print(encoded_message)
+print(my_message_decoded)
